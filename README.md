@@ -18,8 +18,13 @@
 
 #### 1. Instalace závislostí
 V hlavním adresáři repositáře spusťte příkaz:
-```python -m requirements.txt```
-Tím se nainstalují všechny potřebné knihovny a vytvoří se virtuální prostředí.
+```python -m venv .venv```
+
+Tím vytvoříme nové virtuální prostředí pro tento projekt, dále jej aktivujeme příkazem:
+```.venv\Scripts\activate```
+
+Nyní bychom měli být ve virtuálním prostředí. Dále do něj nainstalujeme potřebné balíčky:
+```pip install -r requirements.txt```
 
 #### 2. Spuštění Jupyter Serveru
 Jupyter Server spusťte příkazem:
